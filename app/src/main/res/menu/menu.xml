@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+
+        <item
+            android:id="@+id/drawer_home"
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="home" />
+
+        <item
+            android:id="@+id/drawer_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About " />
+
+        <item
+            android:id="@+id/drawer_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share" />
+        <item
+            android:id="@+id/drawer_more"
+            android:icon="@drawable/ic_baseline_apps_24"
+            android:title="More " />
+
+        <item
+            android:id="@+id/drawer_privacy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/drawer_feedback"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="Give Feedback" />
+        <item
+            android:id="@+id/drawer_updates"
+            android:icon="@drawable/ic_baseline_update_24"
+            android:title="Check Updates" />
+
+
+    </group>
+
+</menu>
